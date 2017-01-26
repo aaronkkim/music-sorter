@@ -13,7 +13,7 @@ function ItunesController() {
 
         console.log(songList);
         // This is where you task begins
-        var songInfo = []
+        // var songInfo = []
         var template = ``
         var songInfo = document.getElementById("songs")
         for (var i = 0; i < songList.length; i++) {
@@ -22,7 +22,7 @@ function ItunesController() {
             template += `
           
             
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <div class="track panel panel-primary">
                              <div class="panel-heading"style ="background-image:url(${song.albumArt})">   
                              </div>
